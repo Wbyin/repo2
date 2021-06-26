@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    list-style: none;
+    font-family: '微软雅黑';
+}
+body{
+    background-image: url(../image/y.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.big_box{
+    width: 50%;
+    border: 1px solid rgb(197, 197, 197);
+    background: rgb(221, 221, 221,0.7);
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.nav{
+    padding: 10px 0px 10px 0px;
+    /* float: left; */
+    display: inline-block;
+    width: 100%;
+    /* position: relative; */
+    border-bottom: 10px solid rgb(228, 228, 228);
+}
+.nav>span{
+    color: rgb(83, 164, 240);
+}
+.nav>span>span{
+    color: rgb(174, 174, 174);
+}
+.info{
+    padding-left: 10px;
+}
+.info:visited{
+    color: rgb(83, 164, 240);
+}
+.info:hover{
+    color: rgb(60, 120, 197);
+
+}
+/* ----------------------- */
+.mess_con{
+    margin-top: 5px;
+    padding: 10px;
+}
+#con{
+    width: 100%;
+    resize: none;
+    border: 1px solid rgb(235, 235, 235);
+    outline: none;
+    background: #cccccc9e;
+
+}
+.mess_con input{
+    background: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 0.2rem;
+    border-color: rgb(218, 218, 218);
+}
+/* ------------------------------------------------------- */
+.content_top{
+    padding: 10px 10px 10px 10px;
+    border-bottom: 5px solid rgb(233, 233, 233);
+}
+.content .content_top a{
+    float: right;
+}
+/* ---- */
+.content_con{
+    width:100%;
+    height: 200px;
+}
+.con_con table{
+    width: 100%;
+}
+.con_con{
+    border-bottom: 5px solid rgb(226, 226, 226);
+    /* padding-bottom: 15px; */
+    padding: 15px 0px 15px 0px;
+}
+.con_con table .imag{
+    width: 130px;
+    height: 120px;
+    text-align: center;
+}
+.img{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: -10px;
+    background: rgb(255, 255, 255);
+    height: 120px;
+    width: 120px;
+    margin: 0px 20px 0px 10px;
+    border: 1px solid rgb(179, 179, 179);
+}
+.username{
+    width: 59%;
+    padding: 10px;
+    padding-left: 0px;
+}
+.edit{
+    border: 1px solid black;
+    display: inline;
+    /* float: right; */
+    margin: -13px 0px 0px 15px;
+    background: rgb(232, 232, 232);
+    cursor: pointer;
+    user-select: none;  /* 禁止文字被选中 */  
+    position: relative;
+}
+.edit:hover{
+    background-color: rgb(213, 213, 213);
+}
+.edit_ul{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    border: 1px solid rgb(187, 187, 187);
+    background: rgb(237, 237, 237);
+    margin-top: -28px;
+    margin-left: 1px;
+}
+.edit_ul li{
+    user-select: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.modi{
+    outline: none;
+    font-size: 16px;
+    border: 0;
+    width: 100px;
+    height:30px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.modi:hover{
+    background: rgb(209, 209, 209);
+}
+.edit_ul li:hover{
+    background: rgb(209, 209, 209);
+}
+.edit_ul a{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: underline;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.con_bom ul{
+    background: e2e2e2;
+    text-align: right;
+    padding: 10px 10px 10px 10px;
+}
+.con_bom ul li{
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+.con_bom ul li .txt{
+    text-align: center;
+    margin: 0 2px 0 2px;
+    width: 35px;
+    height: 19px;
+    border: 1px solid rgb(174, 174, 174);
+    outline: none;
+}
+
+.con_bom ul .button{
+    background: rgb(131, 131, 131);
+    color: white;
+    width: 50px;
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+}
+.txts{
+    /* height: 124px; */
+    border: 0;
+    background: rgb(201, 201, 201,0);
+    outline: none;
+    resize: none;
+    overflow: auto;
+    height: 100px;
+    border: 1px solid rgb(232, 232, 232);
+    display: inline-block;
+    width:96%;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* overflow: auto; */
+}
+
+
+
+
+
